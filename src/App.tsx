@@ -1,11 +1,14 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { GameButton } from "./components/GameButton";
 
 function App() {
   return (
     <div className="App">
-      <h1>10 Seconds: The Game</h1>
+      <div className="container">
+        <h1>10 Seconds</h1>
+        <h4 className="row justify-content-center">the game</h4>
+        <GameButton />
+      </div>
     </div>
   );
 }
